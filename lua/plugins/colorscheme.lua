@@ -2,7 +2,10 @@ return {
   {
     "folke/tokyonight.nvim",
     lazy = true,
-    opts = { style = "day" }, -- night, storm, moon, day
+    opts = {
+      style = "night",
+      -- transparent = true,
+    }, -- night, storm, moon, day
   },
 }
 -- return {
@@ -10,7 +13,7 @@ return {
 --   {
 --     "LazyVim/LazyVim",
 --     opts = {
---       colorscheme = "catppuccin-frappe",
+--       colorscheme = "catppuccin-latte",
 --       integrations = {
 --         aerial = true,
 --         alpha = true,
